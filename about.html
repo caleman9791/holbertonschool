@@ -4,6 +4,61 @@
       <meta charset="utf-8"/>
       <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
       <link href="css/style.css" rel="stylesheet"/>
+      <style type="text/css">
+         /* Center website */
+.main {
+  /*max-width: 1000px;*/
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px 0px 8px 0px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 45%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+      </style>
       <title>
          Document
       </title>
@@ -50,19 +105,67 @@
                   Vision: Serve our customers better to always be relevant in their lives and form lasting relationships. Create the best product. Organize the information and make it accessible and useful. Improve the way many people consume the services of our customers. Make organizations grow at another level.
                </p>
             </section>
-            <section>
-               <h2>
-                  Mission and vision
-               </h2>
-               <div class="flex-container">
-                  <div class="flex-item">
-                  </div>
-                  <div class="flex-item">
-                  </div>
-                  <div class="flex-item">
+            <!-- Portfolio Gallery Grid -->
+            <div class="row">
+               <div class="column">
+                  <div class="content">
+                     <img alt="Mountains" src="img/notebook.jpeg" style="width:100%"/>
+                     <h3>
+                        My Work
+                     </h3>
+                     <p>
+                        Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                     </p>
                   </div>
                </div>
-            </section>
+               <div class="column">
+                  <div class="content">
+                     <img alt="Lights" src="img/notebook.jpeg" style="width:100%"/>
+                     <h3>
+                        My Work
+                     </h3>
+                     <p>
+                        Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                     </p>
+                  </div>
+               </div>
+               <div class="column">
+                  <div class="content">
+                     <img alt="Nature" src="img/notebook.jpeg" style="width:100%"/>
+                     <h3>
+                        My Work
+                     </h3>
+                     <p>
+                        Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                     </p>
+                  </div>
+               </div>
+               <div class="column">
+                  <div class="content">
+                     <img alt="Mountains" src="img/notebook.jpeg" style="width:100%"/>
+                     <h3>
+                        My Work
+                     </h3>
+                     <p>
+                        Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                     </p>
+                  </div>
+               </div>
+               <!-- END GRID -->
+            </div>
+            <div class="content">
+               <img alt="Bear" src="img/notebook.jpeg" style="width:100%"/>
+               <h3>
+                  Some Other Work
+               </h3>
+               <p>
+                  Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
+               </p>
+               <p>
+                  Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
+               </p>
+            </div>
+            <!-- END MAIN -->
             <section>
                <h2>
                   Mission and vision

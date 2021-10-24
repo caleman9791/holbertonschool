@@ -53,7 +53,13 @@ body {
 
 @media screen and (max-width: 600px) {
 	.topnav.responsive {
-		position: relative;
+		position: fixed;
+		/* Fixed Sidebar (stay in place on scroll) */
+		z-index: 1;
+		/* Stay on top */
+		top: 0;
+		/* Stay at the top */
+		left: 0;
 	}
 	.topnav.responsive .icon {
 		position: absolute;
@@ -90,4 +96,17 @@ body {
 	display: table;
 	clear: both;
 	padding: 50px 16px 0.01em 16px;
+}
+
+.footer {
+	position: fixed;
+	/* Set the navbar to fixed position */
+	bottom: 0;
+	/* Position the navbar at the bottom of the page */
+	width: 100%;
+	/* Full width */
+	height: 75px;
+	padding: 10px;
+	background-color: #333333;
+	color: white;
 }

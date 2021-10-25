@@ -1,3 +1,7 @@
+body {
+	width: 99%;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -309,6 +313,10 @@
 }
 
 /*/////////////////////////////////////////////////*/
+
+.example_table1 {
+	margin: 50px 0px;
+}
 
 .example_table1 table {
 	overflow-x: auto;

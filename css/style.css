@@ -310,54 +310,19 @@
 
 /*/////////////////////////////////////////////////*/
 
-.table {
-	/*margin-top: 50px;*/
-	margin: 50px 0px;
-}
-
-.table .row {
-	margin-left: -5px;
-	margin-right: -5px;
-}
-
-@media (max-width: 600px) {
-	.table .column {
-		float: left;
-		/*display: block;*/
-		width: 100%;
-		padding: 1%;
-		margin: 10px;
-	}
-}
-
-.table .column {
-	float: left;
-	width: 48%;
-	padding: 1%;
-	margin: 10px;
-	/*border: 5px solid black;*/
-}
-
-/* Clearfix (clear floats) */
-
-.table .row::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-.table table {
+.example_table1 table {
+	overflow-x: auto;
 	border-collapse: collapse;
 	border-spacing: 0;
 	width: 100%;
-	border: 5px solid black;
+	border: 1px solid #ddd;
 }
 
-.table th, .table td {
+.example_table1 th, .example_table1 td {
 	text-align: left;
-	padding: 16px;
+	padding: 8px;
 }
 
-.table tr:nth-child(even) {
+.example_table1 tr:nth-child(even) {
 	background-color: #f2f2f2;
 }

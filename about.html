@@ -56,6 +56,39 @@
     width: 100%;
   }
 }
+
+.effect7
+{
+   position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect7:before, .effect7:after
+{
+   content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect7:after
+{
+   right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
       </style>
       <title>
          Document
@@ -88,26 +121,26 @@
       <main>
          <div class="main-container">
             <h1>
-               Skills sample.
+               About me
             </h1>
             <aside>
             </aside>
             <section>
                <h2>
-                  Mission and vision
+                  A handful of words here.
                </h2>
                <p>
-                  Mission: To be an essential element for customers with our products and services. Provide personalized service to the organization. Offer the best system requirements analysis service. Be the best in user experience, usability and accessibility.
+                  Carlos Aleman is a dedicated and committed person. With an extraordinary vision, he likes the administration of companies and trusts that working hard for the benefit of others is where remuneration is really.
                </p>
                <p>
-                  Vision: Serve our customers better to always be relevant in their lives and form lasting relationships. Create the best product. Organize the information and make it accessible and useful. Improve the way many people consume the services of our customers. Make organizations grow at another level.
+                  My own phrase: "A satisfied customer is more valuable than a kind boss. Aimaman business and let's see what we are made"
                </p>
             </section>
             <!-- Portfolio Gallery Grid -->
             <div class="row">
                <div class="column">
                   <div class="content">
-                     <img alt="Mountains" src="img/notebook.jpeg" style="width:100%"/>
+                     <img alt="Mountains" src="img/notebook.jpeg" style="width:100%; height:250px;"/>
                      <h3>
                         My Work
                      </h3>
@@ -118,7 +151,7 @@
                </div>
                <div class="column">
                   <div class="content">
-                     <img alt="Lights" src="img/notebook.jpeg" style="width:100%"/>
+                     <img alt="Lights" src="img/userneed.jpeg" style="width:100%; height:250px;"/>
                      <h3>
                         My Work
                      </h3>
@@ -129,7 +162,7 @@
                </div>
                <div class="column">
                   <div class="content">
-                     <img alt="Nature" src="img/notebook.jpeg" style="width:100%"/>
+                     <img alt="Nature" src="img/workinggroup.jpg" style="width:100%; height:250px;"/>
                      <h3>
                         My Work
                      </h3>
@@ -140,7 +173,7 @@
                </div>
                <div class="column">
                   <div class="content">
-                     <img alt="Mountains" src="img/notebook.jpeg" style="width:100%"/>
+                     <img alt="Mountains" src="img/database.jpg" style="width:100%; height:250px;"/>
                      <h3>
                         My Work
                      </h3>
@@ -151,8 +184,8 @@
                </div>
                <!-- END GRID -->
             </div>
-            <div class="content">
-               <img alt="Bear" src="img/notebook.jpeg" style="width:100%"/>
+            <div class="content effect7">
+               <img alt="Bear" src="img/b2b.jpeg" style="width:100%; "/>
                <h3>
                   Some Other Work
                </h3>

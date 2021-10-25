@@ -320,12 +320,22 @@
 	margin-right: -5px;
 }
 
+@media (max-width: 600px) {
+	.table .column {
+		float: left;
+		/*display: block;*/
+		width: 100%;
+		padding: 1%;
+		margin: 10px;
+	}
+}
+
 .table .column {
 	float: left;
 	width: 48%;
-	padding: 5px;
+	padding: 1%;
 	margin: 10px;
-	border: 5px solid black;
+	/*border: 5px solid black;*/
 }
 
 /* Clearfix (clear floats) */
@@ -340,7 +350,7 @@
 	border-collapse: collapse;
 	border-spacing: 0;
 	width: 100%;
-	border: 1px solid #ddd;
+	border: 5px solid black;
 }
 
 .table th, .table td {

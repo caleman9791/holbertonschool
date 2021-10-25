@@ -104,10 +104,11 @@
 	/* Position the navbar at the bottom of the page */
 	width: 100%;
 	/* Full width */
-	height: 75px;
-	padding: 10px;
+	height: 60px;
+	padding: 0px 0px 30px 0px;
 	background-color: #333333;
 	color: white;
+	font-size: 12px;
 }
 
 /*///////////////////////////*/
@@ -271,4 +272,82 @@
 
 .mision_vision_section {
 	margin-bottom: 50px;
+}
+
+/*/////////////////////////////////////////////////////*/
+
+.data_bar .container {
+	width: 100%;
+	background-color: #ddd;
+}
+
+.data_bar .skills {
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.data_bar .html {
+	width: 90%;
+	background-color: #04AA6D;
+}
+
+.data_bar .css {
+	width: 80%;
+	background-color: #2196F3;
+}
+
+.data_bar .js {
+	width: 65%;
+	background-color: #f44336;
+}
+
+.data_bar .php {
+	width: 60%;
+	background-color: #808080;
+}
+
+/*/////////////////////////////////////////////////*/
+
+.table {
+	/*margin-top: 50px;*/
+	margin: 50px 0px;
+}
+
+.table .row {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.table .column {
+	float: left;
+	width: 48%;
+	padding: 5px;
+	margin: 10px;
+	border: 5px solid black;
+}
+
+/* Clearfix (clear floats) */
+
+.table .row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.table table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+.table th, .table td {
+	text-align: left;
+	padding: 16px;
+}
+
+.table tr:nth-child(even) {
+	background-color: #f2f2f2;
 }

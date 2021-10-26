@@ -354,9 +354,9 @@ main {
 	/*border: 5px solid #ddd;*/
 }
 
-.example_table1 th, .example_table1 td, .example_table1 {
+/*.example_table1 th, .example_table1 td, .example_table1 {
 	border: 1px solid black !important;
-}
+}*/
 
 .example_table1 tr:nth-child(even) {
 	background-color: #f2f2f2;

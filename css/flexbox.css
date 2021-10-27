@@ -1,0 +1,30 @@
+/*Example 1*/
+
+.example1 header {
+	background: purple;
+	height: 100px;
+}
+
+.example1 h1 {
+	text-align: center;
+	color: white;
+	line-height: 100px;
+	margin: 0;
+}
+
+.example1 article {
+	padding: 10px;
+	margin: 10px;
+	background: aqua;
+}
+
+.header_card {
+	background-color: #939597;
+	color: white;
+	border: 5px solid #E9897E;
+	-webkit-box-shadow: -1px 2px 33px 13px rgba(29, 255, 72, 0.71);
+	box-shadow: -1px 2px 33px 13px rgba(29, 255, 72, 0.71);
+	width: 75%;
+	margin: 50px auto 20px auto;
+	padding: 10px;
+}

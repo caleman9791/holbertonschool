@@ -30,6 +30,9 @@ element_quantity.addEventListener("keyup", function(argument) {
 function generateNodes(count) {
   removeAllChildNodes(generator);
   element = [];
+  if (count > 12) {
+    count = 12;
+  }
   for (var i = 0; i < count; i++) {
     element[i] = new Item();
     element[i].textContent = "xx";

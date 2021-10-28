@@ -92,3 +92,30 @@
 	padding-left: 20px;
 }
 */
+
+.ol_list {
+	counter-reset: items;
+}
+
+.ol_list ul li span {
+	display: inline-block;
+	width: 250px;
+}
+
+.ol_list>li {
+	display: block;
+	counter-increment: items;
+	margin-top: 10px;
+}
+
+.ol_list>li:before {
+	content: "0" counter(items)". ";
+}
+
+.ol_list>li:nth-child(n+10):before {
+	content: "0" counter(items)". ";
+}
+
+.ol_list>li:nth-child(n+100):before {
+	content: counter(items)". ";
+}

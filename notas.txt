@@ -1,0 +1,8 @@
+
+
+
+https://www.holbertonschool.com/campuses/puerto-rico
+
+https://apply.holbertonschool.com/auth/sign_up?country=pr&locale=es
+
+https://apply.holbertonschool.com/auth/sign_in?country=pr

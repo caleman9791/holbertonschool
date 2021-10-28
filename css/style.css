@@ -1,5 +1,5 @@
 body {
-	width: 95%;
+	/*width: 95%;*/
 }
 
 * {
@@ -121,6 +121,7 @@ main {
 	background-color: #333333;
 	color: white;
 	font-size: 12px;
+	/*margin-left: -100px !important;*/
 }
 
 /*///////////////////////////*/

@@ -49,3 +49,15 @@ function removeAllChildNodes(parent) {
     parent.removeChild(parent.firstChild);
   }
 }
+
+// window.onresize = function(event) {
+//   let box_align_content = document.querySelector(".box_align_content .x");
+//   console.log(box_align_content);
+//   if (window.matchMedia("(min-width:992px)").matches) {
+//     console.log('true');
+//     box_align_content.display = "block";
+//   } else {
+//     console.log('false');
+//     box_align_content.display = "none";
+//   }
+// };

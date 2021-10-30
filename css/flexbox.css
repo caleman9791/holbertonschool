@@ -119,3 +119,10 @@
 .ol_list>li:nth-child(n+100):before {
 	content: counter(items)". ";
 }
+
+/*////////////////////////////*/
+
+.video iframe {
+	width: 100%;
+	height: 600px;
+}

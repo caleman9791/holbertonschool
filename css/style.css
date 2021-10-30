@@ -1,5 +1,6 @@
 body {
-	/*width: 95%;*/
+	margin: 0px;
+	width: 99%;
 }
 
 * {
@@ -8,6 +9,7 @@ body {
 
 main {
 	margin-bottom: 100px;
+	width: 99%;
 }
 
 /* ////////////////////////NAV BAR///////////////////////// */
@@ -107,6 +109,8 @@ main {
 	display: table;
 	clear: both;
 	padding: 50px 16px 0.01em 16px;
+	width: 100%;
+	i
 }
 
 .footer {

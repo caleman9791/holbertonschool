@@ -148,3 +148,67 @@ The "flex-direction: column-reverse;" stacks the flex items vertically (but from
   line-height: 75px;
   font-size: 30px;
 }
+
+/*////////////////////////////////////////////////////*/
+
+.flex-container7 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container7>div {
+  background-color: #f1f1f1;
+  width: 100px;
+  /*width: 8.33333%;*/
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/*///////////////////////////////////////////////////////*/
+
+.flex-container8 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container8>div {
+  background-color: #f1f1f1;
+  /*width: 100px;*/
+  width: 8.33333%;
+  /*width: 7%;*/
+  margin: 10px 5px;
+  /*padding: 10px;*/
+  /*margin: 10px;*/
+  /*border: 2px solid grey;*/
+  text-align: center;
+  line-height: 75px;
+  font-size: 10px;
+}
+
+.panel8 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 10px;
+  background-color: #FFEB3B;
+}
+
+/*/////////////////////////////////////////////////*/
+
+.flex-container9 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background-color: DodgerBlue;
+}
+
+.flex-container9>div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}

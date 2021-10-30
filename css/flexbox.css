@@ -154,6 +154,7 @@ The "flex-direction: column-reverse;" stacks the flex items vertically (but from
 .flex-container7 {
   display: flex;
   /*width: 75%;*/
+  /*flex-wrap: nowrap;*/
   flex-wrap: wrap;
   background-color: DodgerBlue;
 }

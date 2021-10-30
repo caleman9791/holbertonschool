@@ -9,11 +9,22 @@
       <!-- <link href="css/school.css" rel="stylesheet"/> -->
       <!-- <link href="img/favicon.png" rel="icon"/> -->
       <link href="css/style.css" rel="stylesheet"/>
-      <!-- <link href="css/flexbox.css" rel="stylesheet"/> -->
+      <link href="css/flexbox.css" rel="stylesheet"/>
       <style type="text/css">
          .video iframe {
          width: 100%;
          height: 600px;
+         }
+
+         .header_card {
+         background-color: #939597;
+         color: white;
+         border: 5px solid #E9897E;
+         -webkit-box-shadow: -1px 2px 33px 13px rgba(29, 255, 72, 0.71);
+         box-shadow: -1px 2px 33px 13px rgba(29, 255, 72, 0.71);
+         width: 75%;
+         margin: 50px auto 20px auto;
+         padding: 10px;
          }
       </style>
       <script src="js/chat.js">
@@ -90,6 +101,8 @@
                   </p>
                </div>
             </section>
+            <!-- //////////////////////////////////////////////////////////// -->
+            <!--  Debe tener cuidado con un contenedor flexbox ya que le pasa a sus hijos algo que no se  -->
             <div class="flexbox_example">
                <section class="flex_example_container">
                   <h2>
@@ -138,665 +151,667 @@
                      </section>
                   </article>
                </section>
-               <div class="my_row " style="width: 90%;">
-                  <div class="my_col_12 video" style=" margin: 20px 6%; padding: 0px auto;">
-                     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/tkk1jLq0wek" title="YouTube video player">
-                     </iframe>
-                  </div>
+            </div>
+            <!-- //////////////////////////////////////////////////////////// -->
+            <div class="my_row " style="width: 90%;">
+               <div class="my_col_12 video" style=" margin: 20px 6%; padding: 0px auto;">
+                  <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/tkk1jLq0wek" title="YouTube video player">
+                  </iframe>
                </div>
-               <section class="flex_example_container">
-                  <h2>
-                     Flexbox example two.
-                  </h2>
-                  <div class="example2">
-                     <button>
-                        Smile
-                     </button>
-                     <button>
-                        Laugh
-                     </button>
-                     <button>
-                        Wink
-                     </button>
-                     <button>
-                        Shrug
-                     </button>
-                     <button>
-                        Blush
-                     </button>
-                  </div>
-               </section>
-               <section class="flex_example_container">
-                  <h3>
-                     Property reference
-                  </h3>
-                  <ol class="ol_list">
-                     <li>
-                        align-content
-                        <ol class="ol_list">
-                           <li>
-                              Basic positional alignment
-                              <ul>
-                                 <li>
-                                    <span>
-                                       align-content: center;
-                                    </span>
-                                    /* Pack items around the center */
-                                 </li>
-                                 <li>
-                                    <span>
-                                       align-content: start;
-                                    </span>
-                                    /* Pack items from the start */
-                                 </li>
-                                 <li>
-                                    <span>
-                                       align-content: end;
-                                    </span>
-                                    /* Pack items from the end */
-                                 </li>
-                                 <li>
-                                    <span>
-                                       align-content: flex-start;
-                                    </span>
-                                    /* Pack flex items from the start */
-                                 </li>
-                                 <li>
-                                    <span>
-                                       align-content: flex-end;
-                                    </span>
-                                    /* Pack flex items from the end */
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              Normal alignment
-                              <ul>
-                                 <li>
-                                    align-content: normal;
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              Baseline alignment
-                              <ul>
-                                 <li>
-                                    align-content: baseline;
-                                 </li>
-                                 <li>
-                                    align-content: first baseline;
-                                 </li>
-                                 <li>
-                                    align-content: last baseline;
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                        </ol>
-                        <div class="my_container box_align_content">
-                           <div class="my_col control" style="width: 20%;">
-                              <label for="id_align_content">
-                                 align-content
-                              </label>
-                              <select id="id_align_content" name="id_align_content">
-                                 <option value="">
-                                    center
-                                 </option>
-                                 <option value="">
-                                    start
-                                 </option>
-                                 <option value="">
-                                    end
-                                 </option>
-                                 <option value="">
-                                    xxxxxx
-                                 </option>
-                                 <option value="">
-                                    xxxxxx
-                                 </option>
-                                 <option value="">
-                                    xxxxxx
-                                 </option>
-                                 <option value="">
-                                    xxxxxx
-                                 </option>
-                                 <option value="">
-                                    xxxxxx
-                                 </option>
-                                 <option value="">
-                                    xxxxxx
-                                 </option>
-                                 <option value="">
-                                    xxxxxx
-                                 </option>
-                              </select>
-                           </div>
-                           <div class="my_col display" style="width: 80%;">
-                              <div class="">
-                                 X
-                              </div>
-                              <div class="">
-                                 X
-                              </div>
-                              <div class="">
-                                 X
-                              </div>
-                              <div class="">
-                                 X
-                              </div>
-                              <div class="">
-                                 X
-                              </div>
-                              <div class="">
-                                 X
-                              </div>
-                              <div class="">
-                                 X
-                              </div>
-                              <div class="">
-                                 X
-                              </div>
-                              <div class="">
-                                 X
-                              </div>
-                              <div class="">
-                                 X
-                              </div>
-                              <div class="">
-                                 X
-                              </div>
-                              <div class="">
-                                 X
-                              </div>
-                           </div>
-                        </div>
-                     </li>
-                     <li>
-                        align-items
-                        <ol class="ol_list">
-                           <li>
-                              xxxxxx
-                              <ol>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ol>
-                           </li>
-                        </ol>
-                     </li>
-                     <li>
-                        align-self
-                        <ol class="ol_list">
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                        </ol>
-                     </li>
-                     <li>
-                        flex
-                        <ol class="ol_list">
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                        </ol>
-                     </li>
-                     <li>
-                        flex-basis
-                        <ol class="ol_list">
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                        </ol>
-                     </li>
-                     <li>
-                        flex-direction
-                        <ol class="ol_list">
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                        </ol>
-                     </li>
-                     <li>
-                        flex-flow
-                        <ol class="ol_list">
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                        </ol>
-                     </li>
-                     <li>
-                        flex-grow
-                        <ol class="ol_list">
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                        </ol>
-                     </li>
-                     <li>
-                        flex-shrink
-                        <ol class="ol_list">
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                        </ol>
-                     </li>
-                     <li>
-                        flex-wrap
-                        <ol class="ol_list">
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                        </ol>
-                     </li>
-                     <li>
-                        justify-content
-                        <ol class="ol_list">
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                        </ol>
-                     </li>
-                     <li>
-                        order
-                        <ol class="ol_list">
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                           <li>
-                              xxxxxx
-                              <ul>
-                                 <li>
-                                    xxx
-                                 </li>
-                              </ul>
-                           </li>
-                        </ol>
-                     </li>
-                  </ol>
-               </section>
-               <section class="flex_example_container">
-                  <h3>
-                     xxxxx
-                  </h3>
-                  <div class="control">
-                     <div class="control1">
-                        <div class="">
-                           xx
-                           <label for="quantity">
-                              Element in box
+            </div>
+            <section class="flex_example_container">
+               <h2>
+                  Flexbox example two.
+               </h2>
+               <div class="example2">
+                  <button>
+                     Smile
+                  </button>
+                  <button>
+                     Laugh
+                  </button>
+                  <button>
+                     Wink
+                  </button>
+                  <button>
+                     Shrug
+                  </button>
+                  <button>
+                     Blush
+                  </button>
+               </div>
+            </section>
+            <section class="flex_example_container">
+               <h3>
+                  Property reference
+               </h3>
+               <ol class="ol_list">
+                  <li>
+                     align-content
+                     <ol class="ol_list">
+                        <li>
+                           Basic positional alignment
+                           <ul>
+                              <li>
+                                 <span>
+                                    align-content: center;
+                                 </span>
+                                 /* Pack items around the center */
+                              </li>
+                              <li>
+                                 <span>
+                                    align-content: start;
+                                 </span>
+                                 /* Pack items from the start */
+                              </li>
+                              <li>
+                                 <span>
+                                    align-content: end;
+                                 </span>
+                                 /* Pack items from the end */
+                              </li>
+                              <li>
+                                 <span>
+                                    align-content: flex-start;
+                                 </span>
+                                 /* Pack flex items from the start */
+                              </li>
+                              <li>
+                                 <span>
+                                    align-content: flex-end;
+                                 </span>
+                                 /* Pack flex items from the end */
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           Normal alignment
+                           <ul>
+                              <li>
+                                 align-content: normal;
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           Baseline alignment
+                           <ul>
+                              <li>
+                                 align-content: baseline;
+                              </li>
+                              <li>
+                                 align-content: first baseline;
+                              </li>
+                              <li>
+                                 align-content: last baseline;
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                     </ol>
+                     <div class="my_container box_align_content">
+                        <div class="my_col control" style="width: 20%;">
+                           <label for="id_align_content">
+                              align-content
                            </label>
-                           <input class="element_quantity" id="quantity" max="12" min="1" name="element_quantity" type="number"/>
-                        </div>
-                        <div class="">
-                           xx
-                           <input id="checkbox_flex" name="flexbox" type="checkbox" value="flex"/>
-                           <label for="checkbox_flex">
-                              Flex
-                           </label>
-                        </div>
-                        <div class="">
-                           xx
-                           <label for="select_property">
-                              Choose a car:
-                           </label>
-                           <select id="select_property">
-                              <option value="volvo">
-                                 align-content
+                           <select id="id_align_content" name="id_align_content">
+                              <option value="">
+                                 center
                               </option>
-                              <option value="saab">
-                                 align-items
+                              <option value="">
+                                 start
                               </option>
-                              <option value="mercedes">
-                                 align-self
+                              <option value="">
+                                 end
                               </option>
-                              <option value="audi">
-                                 flex
+                              <option value="">
+                                 xxxxxx
                               </option>
-                              <option value="audi">
-                                 flex-basis
+                              <option value="">
+                                 xxxxxx
                               </option>
-                              <option value="audi">
-                                 flex-flow
+                              <option value="">
+                                 xxxxxx
                               </option>
-                              <option value="audi">
-                                 flex-grow
+                              <option value="">
+                                 xxxxxx
                               </option>
-                              <option value="audi">
-                                 flex-shrink
+                              <option value="">
+                                 xxxxxx
                               </option>
-                              <option value="audi">
-                                 flex-wrap
+                              <option value="">
+                                 xxxxxx
                               </option>
-                              <option value="audi">
-                                 justify-content
-                              </option>
-                              <option value="audi">
-                                 order
+                              <option value="">
+                                 xxxxxx
                               </option>
                            </select>
                         </div>
-                        <!--    <div class="">xx
+                        <div class="my_col display" style="width: 80%;">
+                           <div class="">
+                              X
+                           </div>
+                           <div class="">
+                              X
+                           </div>
+                           <div class="">
+                              X
+                           </div>
+                           <div class="">
+                              X
+                           </div>
+                           <div class="">
+                              X
+                           </div>
+                           <div class="">
+                              X
+                           </div>
+                           <div class="">
+                              X
+                           </div>
+                           <div class="">
+                              X
+                           </div>
+                           <div class="">
+                              X
+                           </div>
+                           <div class="">
+                              X
+                           </div>
+                           <div class="">
+                              X
+                           </div>
+                           <div class="">
+                              X
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li>
+                     align-items
+                     <ol class="ol_list">
+                        <li>
+                           xxxxxx
+                           <ol>
+                              <li>
+                                 xxx
+                              </li>
+                           </ol>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>
+                     align-self
+                     <ol class="ol_list">
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>
+                     flex
+                     <ol class="ol_list">
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>
+                     flex-basis
+                     <ol class="ol_list">
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>
+                     flex-direction
+                     <ol class="ol_list">
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>
+                     flex-flow
+                     <ol class="ol_list">
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>
+                     flex-grow
+                     <ol class="ol_list">
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>
+                     flex-shrink
+                     <ol class="ol_list">
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>
+                     flex-wrap
+                     <ol class="ol_list">
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>
+                     justify-content
+                     <ol class="ol_list">
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>
+                     order
+                     <ol class="ol_list">
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           xxxxxx
+                           <ul>
+                              <li>
+                                 xxx
+                              </li>
+                           </ul>
+                        </li>
+                     </ol>
+                  </li>
+               </ol>
+            </section>
+            <section class="flex_example_container">
+               <h3>
+                  xxxxx
+               </h3>
+               <div class="control">
+                  <div class="control1">
+                     <div class="">
+                        xx
+                        <label for="quantity">
+                           Element in box
+                        </label>
+                        <input class="element_quantity" id="quantity" max="12" min="1" name="element_quantity" type="number"/>
+                     </div>
+                     <div class="">
+                        xx
+                        <input id="checkbox_flex" name="flexbox" type="checkbox" value="flex"/>
+                        <label for="checkbox_flex">
+                           Flex
+                        </label>
+                     </div>
+                     <div class="">
+                        xx
+                        <label for="select_property">
+                           Choose a car:
+                        </label>
+                        <select id="select_property">
+                           <option value="volvo">
+                              align-content
+                           </option>
+                           <option value="saab">
+                              align-items
+                           </option>
+                           <option value="mercedes">
+                              align-self
+                           </option>
+                           <option value="audi">
+                              flex
+                           </option>
+                           <option value="audi">
+                              flex-basis
+                           </option>
+                           <option value="audi">
+                              flex-flow
+                           </option>
+                           <option value="audi">
+                              flex-grow
+                           </option>
+                           <option value="audi">
+                              flex-shrink
+                           </option>
+                           <option value="audi">
+                              flex-wrap
+                           </option>
+                           <option value="audi">
+                              justify-content
+                           </option>
+                           <option value="audi">
+                              order
+                           </option>
+                        </select>
+                     </div>
+                     <!--    <div class="">xx
                            <label for="cars">
                               Choose a car:
                            </label>
@@ -815,14 +830,13 @@
                               </option>
                            </select>
                         </div> -->
-                     </div>
-                     <div class="control12">
-                        <div class="generator">
-                        </div>
+                  </div>
+                  <div class="control12">
+                     <div class="generator">
                      </div>
                   </div>
-               </section>
-            </div>
+               </div>
+            </section>
          </div>
       </main>
       <footer class="footer">

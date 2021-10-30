@@ -1,0 +1,166 @@
+/*Example 1*/
+
+.example1 header {
+	background: purple;
+	height: 100px;
+}
+
+.example1 h1 {
+	text-align: center;
+	color: white;
+	line-height: 100px;
+	margin: 0;
+}
+
+.example1 article {
+	padding: 10px;
+	margin: 10px;
+	background: aqua;
+}
+
+.header_card {
+	background-color: #939597;
+	color: white;
+	border: 5px solid #E9897E;
+	-webkit-box-shadow: -1px 2px 33px 13px rgba(29, 255, 72, 0.71);
+	box-shadow: -1px 2px 33px 13px rgba(29, 255, 72, 0.71);
+	width: 75%;
+	margin: 50px auto 20px auto;
+	padding: 10px;
+}
+
+.flexbox_example .flex_example_container {
+	margin-top: 75px;
+}
+
+/*///////////////////////////////////////////////*/
+
+.example1>section {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+}
+
+.example1 article {
+	flex: 1 200px;
+}
+
+.example1 article:nth-of-type(3) {
+	flex: 2 300px;
+}
+
+/*///////////////////////////////////////////////*/
+
+.example2 button {
+	font-size: 18px;
+	line-height: 1.5;
+	width: 15%;
+}
+
+.example2 div {
+	height: 100px;
+	border: 1px solid black;
+}
+
+/* Add your flexbox CSS below here */
+
+.control {
+	content: "";
+	display: table;
+	clear: both;
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+.control .control1 {
+	float: left;
+	width: 40%;
+	padding-left: 0px;
+	border: 5px solid black;
+}
+
+.control .control12 {
+	float: left;
+	width: 60%;
+	padding-left: 0px;
+	border: 5px solid black;
+}
+
+.control .control13 {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+.ol_list {
+	counter-reset: items;
+}
+
+.ol_list ul li span {
+	display: inline-block;
+	width: 250px;
+}
+
+.ol_list>li {
+	display: block;
+	counter-increment: items;
+	margin-top: 10px;
+}
+
+.ol_list>li:before {
+	content: "0" counter(items)". ";
+}
+
+.ol_list>li:nth-child(n+10):before {
+	content: "0" counter(items)". ";
+}
+
+.ol_list>li:nth-child(n+100):before {
+	content: counter(items)". ";
+}
+
+/*////////////////////////////*/
+
+.video iframe {
+	width: 100%;
+	height: 600px;
+}
+
+////////////////////////////////////////////////////////////////////////////
+
+      <style type="text/css">
+         .video iframe {
+         width: 100%;
+         height: 600px;
+         }
+
+         .header_card {
+         background-color: #939597;
+         color: white;
+         border: 5px solid #E9897E;
+         -webkit-box-shadow: -1px 2px 33px 13px rgba(29, 255, 72, 0.71);
+         box-shadow: -1px 2px 33px 13px rgba(29, 255, 72, 0.71);
+         width: 75%;
+         margin: 50px auto 20px auto;
+         padding: 10px;
+         }
+      </style>
+      <style>
+         .flex-container {
+         display: flex;
+         flex-wrap: nowrap;
+         background-color: DodgerBlue;
+         }
+
+         .flex-container > div {
+         background-color: #f1f1f1;
+         width: 100px;
+         margin: 10px;
+         text-align: center;
+         line-height: 75px;
+         font-size: 30px;
+         }
+      </style>
+
+
+//////////////////////////////////////////////////////////////////////////////

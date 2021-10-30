@@ -104,7 +104,7 @@ main {
 	margin-left: 2%;
 }
 
-.main-container {
+.main_container {
 	content: "";
 	/*display: table;*/
 	clear: both;

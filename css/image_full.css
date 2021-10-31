@@ -1,10 +1,10 @@
-img {
+.images_header img {
 	border-radius: 5px;
 	cursor: pointer;
 	transition: 0.3s;
 }
 
-img:hover {
+.images_header img:hover {
 	opacity: 0.7;
 }
 

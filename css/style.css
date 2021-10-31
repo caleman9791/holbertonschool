@@ -94,7 +94,7 @@ main {
 	display: flex;
 }
 
-.flex-item {
+/*.flex-item {
 	flex-grow: 1;
 	height: 100px;
 	background-color: #A2CBFA;
@@ -102,7 +102,7 @@ main {
 
 .flex-item+.flex-item {
 	margin-left: 2%;
-}
+}*/
 
 .main_container {
 	content: "";
@@ -131,14 +131,26 @@ main {
 
 .flex-container1 {
 	display: flex;
-	background-color: DodgerBlue;
+	/*background-color: DodgerBlue;*/
 }
 
 .flex-container1>div {
-	background-color: #f1f1f1;
+	/*background-color: #f1f1f1;*/
 	margin: 10px;
-	padding: 20px;
+	width: 100px;
+	height: 100px !important;
+	padding: 0px;
 	font-size: 30px;
+}
+
+.flex-container1 .flex-item {
+	flex-grow: 1;
+	height: 100px;
+	/*background-color: #A2CBFA;*/
+}
+
+.flex-container1 .flex-item+.flex-item {
+	margin-left: 2%;
 }
 
 /*///////////////////////////*/
@@ -428,7 +440,7 @@ Extraction of classes for ranks and responsive elements.
 
 .my_container {
 	content: "";
-	display: table;
+	display: ;
 	clear: both
 }
 

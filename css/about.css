@@ -84,3 +84,62 @@
 	-o-transform: skew(8deg) rotate(3deg);
 	transform: skew(8deg) rotate(3deg);
 }
+
+/*section.my_container {
+	margin-bottom: 50px !important;
+}*/
+
+@media (max-width: 720px) {
+	section.my_container {
+		margin-bottom: 0px !important;
+		/*background-color: blue;*/
+	}
+}
+
+@media (min-width: 721px) {
+	section.my_container {
+		margin-bottom: 25px !important;
+	}
+}
+
+@media (min-width: 800px) {
+	section.my_container {
+		margin-bottom: 50px !important;
+	}
+}
+
+@media (min-width: 930px) {
+	section.my_container {
+		margin-bottom: 75px !important;
+	}
+}
+
+@media (min-width: 1000px) {
+	section.my_container {
+		margin-bottom: 100px !important;
+	}
+}
+
+@media (min-width: 1200px) {
+	section.my_container {
+		margin-bottom: 130px !important;
+	}
+}
+
+@media (min-width: 2000px) {
+	section.my_container {
+		margin-bottom: 200px !important;
+	}
+}
+
+/*@media (min-width: 500px) and (max-width: 600px) {
+	section.my_container {
+		margin-bottom: 50px !important;
+	}
+}*/
+
+/*@media (min-width: 500px) and (max-width: 600px) {
+	section.my_container {
+		margin-bottom: 50px !important;
+	}
+}*/

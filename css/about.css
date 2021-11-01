@@ -143,3 +143,32 @@
 		margin-bottom: 50px !important;
 	}
 }*/
+
+.main_container {
+	margin-bottom: 200px;
+}
+
+.flex-container1 button {
+	position: relative;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgb(64, 21, 133);
+	color: white;
+	font-size: 20px;
+	padding: 10px 36px;
+	width: 100%;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bolder;
+	margin-top: 10px;
+	border-radius: 10px 10px 100px 100px;
+}
+
+.flex-container1 button a {
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}

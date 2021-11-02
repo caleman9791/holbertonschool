@@ -6,9 +6,52 @@
       </title>
       <meta charset="utf-8"/>
       <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
       <!-- <link href="css/school.css" rel="stylesheet"/> -->
       <!-- <link href="img/favicon.png" rel="icon"/> -->
       <link href="css/style.css" rel="stylesheet"/>
+      <style>
+         .card {
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+         max-width: 300px;
+         margin: auto;
+         text-align: center;
+         font-family: arial;
+         }
+
+         .title {
+         color: grey;
+         font-size: 18px;
+         }
+         .fa-twitter{
+            font-size: 50px;
+            color: #1A8CD8;
+         }
+
+         .button {
+         border: none;
+         outline: 0;
+         display: inline-block;
+         padding: 8px;
+         color: white;
+         background-color: #000;
+         text-align: center;
+         cursor: pointer;
+         width: 100%;
+         font-size: 18px;
+         }
+
+         .card p a {
+         text-decoration: none;
+         font-size: 22px;
+         background-color: black;
+         color: white;
+         }
+
+         .button:hover, a:hover {
+         opacity: 0.7;
+         }
+      </style>
       <script src="js/chat.js">
       </script>
    </head>
@@ -53,33 +96,31 @@
                <h2>
                   Contact data
                </h2>
-               <p>
-                  Mission: To be an essential element for customers with our products and services. Provide personalized service to the organization. Offer the best system requirements analysis service. Be the best in user experience, usability and accessibility.
-               </p>
-               <p>
-                  Vision: Serve our customers better to always be relevant in their lives and form lasting relationships. Create the best product. Organize the information and make it accessible and useful. Improve the way many people consume the services of our customers. Make organizations grow at another level.
-               </p>
             </section>
             <section>
-               <h2>
-                  Mission and vision
-               </h2>
-               <div class="flex-container">
-                  <div class="flex-item">
-                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam nemo
-                     </p>
+               <div class="card">
+                  <img alt="Profile image of Carlos Aleman" src="img/perfil_image.jpg" style="width:100%"/>
+                  <!-- <img alt="" src="img/perfil_image.jpg" style="width:100%"/> -->
+                  <h2>
+                     Carlos Alemán
+                  </h2>
+                  <p class="title">
+                     Programador web
+                  </p>
+                  <p>
+                     LAMP STACK
+                  </p>
+                  <div style="margin: 24px 0;">
+                     <a href="https://github.com/caleman9791" target="_blank">
+                        <i class="fa fa-twitter">
+                        </i>
+                     </a>
                   </div>
-                  <div class="flex-item">
-                     <p>
-                        Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Veniam unde blandit
-                     </p>
-                  </div>
-                  <div class="flex-item">
-                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing, elit. Eaque fugia
-                     </p>
-                  </div>
+                  <p>
+                     <a class="button" href="mailto:caleman9791@protonmail.com" target="_blank">
+                        Send Email
+                     </a>
+                  </p>
                </div>
             </section>
             <aside>
